@@ -199,11 +199,11 @@ a {
 }
 
 #profile img{
-    width: 8em;
+    width: 10em;
     height: auto;
     border-radius: 100%;
     /* align-self: center; */
-    margin: 20px 0;
+    margin: 20px 0 0;
 }
 
 #bio{
@@ -215,7 +215,9 @@ a {
 
 #treatments{
     padding: 100px 80px;
-    /* background-color: ; */
+    padding-top: 100px;
+    background-image: url(./assets/wavy.svg);
+    background-size: cover;
 }
 
 .underline-wrapper{
@@ -251,11 +253,11 @@ a {
 }
 
 .flip-card {
-    background-color: transparent;
     width: 240px;
     height: 240px;
     perspective: 1000px;
     margin: 20px;
+
 }
   
 .flip-card-inner {
@@ -280,6 +282,7 @@ a {
     -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
     color: black;
+    box-shadow: 0 4px 5px -2px #494949;
 }
   
 .flip-card-front {
@@ -305,7 +308,16 @@ a {
 /* FAQ */
 
 #faq{
-    margin: 50px;
+    padding: 50px;
+    background: url("./assets/orange-circle.svg") 75vw 10vh no-repeat,
+        url("./assets/yellow-circle.svg") 5vw 40vh no-repeat, 
+        url("./assets/small-yellow-circle.svg") 85vw 80vh no-repeat,
+        url("./assets/large-yellow-circle.svg") 12vw 130vh no-repeat,
+        url("./assets/orange-circle.svg") 90vw 180vh no-repeat,
+        url("./assets/small-yellow-circle.svg") 5vw 220vh no-repeat,
+        url("./assets/yellow-circle.svg") 85vw 280vh no-repeat,
+        url("./assets/large-yellow-circle.svg") 8vw 320vh no-repeat;
+    padding-bottom: 130px;
 }
 
 .questions-answers{
