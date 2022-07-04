@@ -518,12 +518,24 @@ body {
     .about-box{
         width: 90%;
     }
+
+    #faq {
+        margin-top: -80px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
 
     .nav-item {
         margin: 20px;
+    }
+
+    #nav-call {
+        display: none;
+    }
+
+    #faq {
+        padding-top: 100px;
     }
 }
 
