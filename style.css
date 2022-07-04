@@ -123,11 +123,6 @@ body {
     text-decoration: none;
 }
 
-/* #stones { 
-    max-width: 100%;
-    height: auto;
-} */
-
 .down {
     width: 100%;
     display: flex;
@@ -323,10 +318,6 @@ body {
     transform: rotateY(180deg);
 }
 
-.flip-card-back p {
-    margin: 20px;
-}
-
 /* FAQ */
 
 #faq {
@@ -395,11 +386,6 @@ body {
     /* overflow: wrap; */
     width: 60vw;
     transition: max-height 0.2s ease-out;
-}
-
-.panel p {
-    padding: 10px 20px;
-    line-height: 1.5em;
 }
 
 /* INFO SECTION */
@@ -482,7 +468,6 @@ body {
 
 .cta-mobile {
     display: none;
-    
 }
 
 @media only screen and (max-width: 1400px) {
@@ -526,6 +511,7 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
+
     .navbar-brand {
         width: 6em;
         margin-left: 0 !important;
@@ -533,6 +519,13 @@ body {
 
     .about-box{
         width: 90%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .nav-item {
+        margin: 20px;
     }
 }
 
